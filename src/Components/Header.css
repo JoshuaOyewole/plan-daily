@@ -30,8 +30,18 @@ body {
     font-style: italic;
 }
 
+.quote_author{
+    color: #c09a95;
+    text-align: center;
+    display: block;
+}
+
 @media (max-width: 600px){
     .header{
         padding: 0 2rem;
+    }
+
+    .tertiary-header{
+        font-size: 1rem;
     }
 }

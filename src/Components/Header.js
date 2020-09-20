@@ -14,7 +14,8 @@ function Header() {
                     alt='User profile picture'
                     src='./profile-pixs.jpg'    
                 /> */}
-                <h5 className='tertiary-header'>A day well plan is a day well spent - Get Quote from API</h5>
+                <h5 className='quote tertiary-header'>A day well plan is a day well spent <br />  <span className='quote_author'> - Get Quote from API</span></h5>
+                
             </div>
             
       </div>
