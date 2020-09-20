@@ -1,0 +1,39 @@
+.add_todo{
+    background-color: #e7e6e6;
+    display: block;
+    text-align: center;
+}
+.todo_form{
+    padding: 1.3rem 0rem;
+}
+
+input{
+    padding: .6rem 1.5rem;
+    border: .5px solid #263c68;
+    outline: none;
+    margin-right: .5rem;
+    border-radius: 3px;
+}
+
+button{
+    padding: .65rem 1.5rem;
+    background-color: #263c68;
+    color: #fff;
+    border: none;
+    transition: all 2s;
+}
+
+button:active, button:hover{
+    outline: none;
+    transform: translate(6px);
+}
+
+@media (max-width: 400px){
+    .todo_form{
+        padding: 1rem;
+    }
+
+    button{
+    padding: .65rem 0.5rem;
+    }
+}
