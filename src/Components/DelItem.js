@@ -22,18 +22,7 @@ function DelItem(props) {
     }
 
     return (
-            <button 
-                style={
-                    {
-                     backgroundColor:'red',
-                     outline: 'none',
-                     border: 'none',
-                     color: 'white',
-                     padding: '.3rem 1rem'
-                    }
-                      }
-                    onClick={delItem}>X
-            </button>  
+          <i style={{color: 'red'}} onClick={delItem} className="fas fa-trash"></i>
     )
 }
 

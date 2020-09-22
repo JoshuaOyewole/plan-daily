@@ -1,6 +1,7 @@
 .todo__list{
     padding: 3rem 1rem;
     color: #333;
+    font-family: 'Nunito', sans-serif;
 }
 
 .item {
