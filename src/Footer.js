@@ -14,7 +14,7 @@ function Footer() {
     }
     return (
         <footer style={footer}>
-            Designed with <i style={{color:'red'}} className="far fa-heart"></i> by <a style={{textDecoration: 'none'}} href='http://joshuaoyewole.netlify.app'>Joshua Oyewole</a>
+            Built with <i style={{color:'red'}} className="far fa-heart"></i> by <a style={{textDecoration: 'none'}} href='http://joshuaoyewole.netlify.app'>Joshua Oyewole</a>
         </footer>     
     )
 }
