@@ -4,7 +4,6 @@ function RandomQuotes() {
     const [quotes, setQuotes] = useState([]);
 
     const randomNo = Math.floor(Math.random() * 1643);
-    console.log(randomNo);
 
     useEffect(()=>{
   
@@ -13,7 +12,7 @@ function RandomQuotes() {
         .then(data => {return setQuotes(data[randomNo])})
         .catch(err =>{console.log('Unable to fetch data:' + err);
         });   
-    },[])
+    },[randomNo])
    
 
     return (
